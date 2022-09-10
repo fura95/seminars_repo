@@ -1,0 +1,13 @@
+Команды в GIT Bash\Linux\MacOS:
+
+cd folder_name - смена директории
+cd .. - вернуться назад
+mkdir folder - создать пустую папку
+rm file - удалить файл
+rm -rf folder - удалить папку
+
+Настройка гита:
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
+
